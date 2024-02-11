@@ -1,0 +1,96 @@
+@font-face {
+    font-family: IRANSansX;
+    src: url('/fonts/IRANSansXFaNum-Medium.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: IRANSansX_Bold;
+    src: url('/fonts/IRANSansXFaNum-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family:
+    IRANSansX,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #ff6700;
+}
+
+.wraper{
+    padding: 0 10px 0 10px
+}
+
+.footer{
+    border-top: #ff6700 2px solid;
+}
+
+.label{
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    overflow-x: hidden;
+}
+
+.product-item{
+   width: 300px;
+   background-color: ghostwhite;
+   border-radius: 16px;
+   align-self: center;
+   padding: 10px;
+}
+
+.image-product{
+    border-radius: 16px;
+    margin-bottom: 5px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.label{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.title-product{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
